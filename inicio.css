@@ -1,0 +1,118 @@
+body{
+	background-color: #f4f3ef;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+ 
+header{
+	display: flex;
+	height: 70px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px;
+}
+
+.logo img{
+	height: 90px;
+	margin-right: 10px;
+}
+
+nav a{
+	font-weight: 600;
+	padding-right: 30px;
+}
+
+nav a:hover{
+	color: #205375;
+}
+/*------------------------------------------tablita---------------------------------------------------*/
+.tablita1{
+	width: 1289px;
+	height: 780px;
+	padding: 30px;
+	background: #9badc2;
+}
+
+.tablita2{
+	width: 1289px;
+	height: 40px;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-size: 20px;
+	background: #364C63;
+	color: #F4F3EF;
+	font-family:Trebuchet MS;
+}
+
+.tablita3{
+	width: 980px;
+	height: 60px;
+	margin-bottom:5px;
+	margin-top:5px;
+	font-size: 20px;
+	background: #364C63;
+	color: #F4F3EF;
+	font-family:Trebuchet MS;
+}
+	
+/*------------------------------------------imagenes---------------------------------------------------*/
+
+div img{
+	margin-top: 15px;
+	margin-left:35px;
+	margin-right:0px;
+ 	height: 240px;
+	border-radius: 8px;
+}
+
+figure{
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+figcaption{
+	color: #F4F3EF;
+	transition: all 0.4s;
+	background: rgba(0,0,0, 0.7);
+	position: absolute;
+	left: 35px;
+	bottom: -150px;
+	width: 80%;
+	padding: 6%;
+}
+
+figure:hover figcaption{
+	bottom: 0px;
+}
+
+/*----------------------------titulo--------------------------------------------------*/
+.titulo{
+	font-family:Trebuchet MS;
+	font-size: 30px;
+	color: #f4f3ef;
+	margin-left: 19px;
+	margin-bottom:8px;
+	margin-top:8px;
+}
+/*----------------------------pie de pagina--------------------------------------------------*/
+footer{
+	display: flex;
+	height: 25px;
+	width: 1299px;
+	justify-content: space-around;
+	align-items: center;
+	padding: 25px;
+}
+
+footer nav a{
+	float: center;
+	font-weight: 550;
+	padding-right: 120px;
+}

@@ -1,0 +1,36 @@
+body{
+	margin-top: 75px;
+	margin-bottom: 150px;
+	margin-left: 200px;
+	background-color: #E4E9BE;
+}
+
+.tablita{
+	width: 900px;
+	height: 625px;
+	padding: 30px;
+	font-size: 20px;
+	background: #FAFDD6;
+	border-radius: 35px;
+}
+
+.titulo{
+	font-size: 25px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	color: #333333;
+}
+
+.informacionbody{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font-size: 20px;
+	color: #333333;
+ }
+ 
+.imagen img{
+	width:30px;
+	height:auto
+}
+
+a{
+	text-decoration: none;
+}
